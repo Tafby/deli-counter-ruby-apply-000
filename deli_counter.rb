@@ -12,7 +12,8 @@ end
 
 def take_a_number(deli, name)
   deli.push(name)
-  puts "Welcome #{name}. You are number " + name.index + "in line."
+  length = deli.length
+  puts "Welcome #{name}. You are number " + length + "in line."
 end
 
 def now_serving(deli)
