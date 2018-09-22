@@ -15,7 +15,8 @@ def take_a_number(deli, name)
   string = "Welcome #{name}. You are number"
   deli.each_with_index do |name, index|
     string << "#{index} in line"
-  
+  end
+  puts string
 end
 
 def now_serving(deli)
