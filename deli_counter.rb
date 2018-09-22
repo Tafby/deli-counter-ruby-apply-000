@@ -22,6 +22,6 @@ def now_serving(array)
   else
     first = array.first
     puts "Currently serving" + first + "."
-    
+    array.shift
 end
 
