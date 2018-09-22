@@ -23,5 +23,6 @@ def now_serving(array)
     first = array.first
     puts "Currently serving" + first + "."
     array.shift
+  end
 end
 
