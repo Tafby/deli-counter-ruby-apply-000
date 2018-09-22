@@ -5,7 +5,6 @@ def line(array)
     array.each_with_index do |name, index +1|
     puts "The line is currently: #{index}. #{name} "
   end
-  end
 end
 
 def take_a_number(deli, name)
