@@ -10,9 +10,9 @@ def line(array)
   end
 end
 
-def take_a_number(deli, name)
-  deli.push(name)
-  length = deli.length
+def take_a_number(array, name)
+  array.push(name)
+  length = array.length
   puts "Welcome #{name}. You are number " + length + "in line."
 end
 
