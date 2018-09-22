@@ -4,7 +4,6 @@ def line(array)
   else 
     array.each_with_index do {|name, index|
     puts "The line is currently: #{index}. #{name} " }
-    end
   end
 end
 
