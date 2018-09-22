@@ -13,7 +13,7 @@ end
 def take_a_number(deli, name)
   deli.push(name)
   number = deli[-1]
-  string = "Welcome #{name}. You are number" + number + "."
+  puts "Welcome #{name}. You are number" + number + "."
 end
 
 def now_serving(deli)
