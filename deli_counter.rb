@@ -16,7 +16,7 @@ def take_a_number(deli, name)
   deli.each_with_index do |name, index|
     string << "#{index}"
   end
-  string << "in line.""
+  string << "in line."
   puts string
 end
 
