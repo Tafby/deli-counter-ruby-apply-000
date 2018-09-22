@@ -1,5 +1,5 @@
 def line(array)
-  
+  puts "There's nobody in line"
 end
 
 def take_a_number(deli, name)
