@@ -12,7 +12,7 @@ end
 
 def take_a_number(deli, name)
   deli.push(name)
-  number = deli[-1]
+  number = deli.length
   puts "Welcome #{name}. You are number" + number + "in line."
 end
 
