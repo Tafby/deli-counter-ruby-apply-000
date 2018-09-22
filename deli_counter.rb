@@ -12,7 +12,7 @@ end
 
 def take_a_number(deli, name)
   deli.push(name)
-  puts "Welcome #{name}. You are number"
+  puts "Welcome #{name}. You are number " + name.index + "in line."
 end
 
 def now_serving(deli)
